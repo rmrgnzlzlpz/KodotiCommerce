@@ -1,0 +1,12 @@
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\bin\Debug\net5.0\Api.Gatewat.Models.deps.json
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\bin\Debug\net5.0\Api.Gatewat.Models.dll
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\bin\Debug\net5.0\ref\Api.Gatewat.Models.dll
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\bin\Debug\net5.0\Api.Gatewat.Models.pdb
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\Api.Gatewat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\Api.Gatewat.Models.AssemblyInfoInputs.cache
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\Api.Gatewat.Models.AssemblyInfo.cs
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\Api.Gatewat.Models.csproj.CoreCompileInputs.cache
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\Api.Gatewat.Models.dll
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\ref\Api.Gatewat.Models.dll
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\Api.Gatewat.Models.pdb
+C:\Users\ramiro.gonzalez\source\repos\microservices\KODOTI.Commerce\src\Gateways\Api.Gatewat.Models\obj\Debug\net5.0\Api.Gatewat.Models.csproj.AssemblyReference.cache

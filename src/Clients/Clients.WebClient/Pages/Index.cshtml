@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">KODOTI Commerce</h1>
+    <p>Proyecto desarrollado para el curso de Microservicios con .NET Core.</p>
+    <p>
+        Para más información visita la <a href="https://kodoti.com/cursos/microservicios-con-net-core
+">página del curso</a>.
+    </p>
+
+    <hr />
+
+    <div>
+        @foreach (var item in User.Claims)
+        {
+            <h3>
+                <b>@item.Type</b> : <b>@item.Value</b>
+            </h3>
+        }
+    </div>
+</div>

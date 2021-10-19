@@ -1,0 +1,640 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Api\\Identity.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Common\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Common\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Common\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Common\\Common.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "projectName": "Service.Common.Collection",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Collection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "projectName": "Service.Common.Mapping",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Paging\\Service.Common.Paging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Paging\\Service.Common.Paging.csproj",
+        "projectName": "Service.Common.Paging",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Paging\\Service.Common.Paging.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Paging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Collection\\Service.Common.Collection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Api\\Identity.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Api\\Identity.Api.csproj",
+        "projectName": "Identity.Api",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Api\\Identity.Api.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Common\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Common\\Common.Logging\\Common.Logging.csproj"
+              },
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.EventHandlers\\Identity.Service.EventHandlers.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.EventHandlers\\Identity.Service.EventHandlers.csproj"
+              },
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.Queries\\Identity.Service.Queries.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.Queries\\Identity.Service.Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Core": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\Identity.Domain.csproj",
+        "projectName": "Identity.Domain",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\Identity.Domain.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\Identity.Persistence.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\Identity.Persistence.Database.csproj",
+        "projectName": "Identity.Persistence.Database",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\Identity.Persistence.Database.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.EventHandlers\\Identity.Service.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.EventHandlers\\Identity.Service.EventHandlers.csproj",
+        "projectName": "Identity.Service.EventHandlers",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.EventHandlers\\Identity.Service.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Domain\\Identity.Domain.csproj"
+              },
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\Identity.Persistence.Database.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\Identity.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.13.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.13.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.Queries\\Identity.Service.Queries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.Queries\\Identity.Service.Queries.csproj",
+        "projectName": "Identity.Service.Queries",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.Queries\\Identity.Service.Queries.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Service.Queries\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Mapping\\Service.Common.Mapping.csproj"
+              },
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Paging\\Service.Common.Paging.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Common\\Service.Common.Paging\\Service.Common.Paging.csproj"
+              },
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\Identity.Persistence.Database.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Identity\\Identity.Persistence.Database\\Identity.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

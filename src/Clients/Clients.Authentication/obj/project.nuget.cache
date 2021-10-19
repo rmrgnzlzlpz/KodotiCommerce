@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nEtn9Y7b9DG8MRNVVuyPCUFmNgziwxgfLtertYF8S2saTeH1CfI2Gn7g6OL5iXWGLgonUUMypEYA1NVUhZdf2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Clients\\Clients.Authentication\\Clients.Authentication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.9\\microsoft.netcore.app.host.win-x64.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

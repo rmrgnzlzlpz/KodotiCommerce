@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "txlxv2ifMpS01CuDmlpivhnUb6WRAsYPmDlXigS96YwK2U+ZrncUcYwH2RFXc0hat/p7zaC7PXK4exG74hQm+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Common\\Common.Logging\\Common.Logging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

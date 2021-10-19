@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Tests\\Catalog.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Common\\Catalog.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Common\\Catalog.Common.csproj",
+        "projectName": "Catalog.Common",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Common\\Catalog.Common.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Domain\\Catalog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Domain\\Catalog.Domain.csproj",
+        "projectName": "Catalog.Domain",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Domain\\Catalog.Domain.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj",
+        "projectName": "Catalog.Persistence.Database",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Domain\\Catalog.Domain.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Domain\\Catalog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj",
+        "projectName": "Catalog.Service.EventHandlers",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Service.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Common\\Catalog.Common.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Common\\Catalog.Common.csproj"
+              },
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Tests\\Catalog.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Tests\\Catalog.Tests.csproj",
+        "projectName": "Catalog.Tests",
+        "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Tests\\Catalog.Tests.csproj",
+        "packagesPath": "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramiro.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj"
+              },
+              "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj": {
+                "projectPath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Services\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

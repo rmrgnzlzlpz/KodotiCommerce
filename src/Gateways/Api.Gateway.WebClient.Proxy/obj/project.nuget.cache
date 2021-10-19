@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lTBFeQNY/v74OsUb0tUWbTv08+w6wp+zDNFmlK+wDPW9dHXTT2ThWdAzG1HXyLQCv1ZbELoy0tlm+qghhatZzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ramiro.gonzalez\\source\\repos\\microservices\\KodotiCommerce\\src\\Gateways\\Api.Gateway.WebClient.Proxy\\Api.Gateway.WebClient.Proxy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\ramiro.gonzalez\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
