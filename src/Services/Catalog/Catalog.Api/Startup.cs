@@ -47,9 +47,9 @@ namespace Catalog.Api
                 .AddCheck("self", () => HealthCheckResult.Healthy(), new string[] { "Intern" })
                 .AddDbContextCheck<ApplicationDbContext>(tags: new string[] { "Extern" });
 
-            services
-                .AddHealthChecksUI()
-                .AddInMemoryStorage();
+            //services
+                //.AddHealthChecksUI()
+                //.AddInMemoryStorage();
 
             services.AddMediatR(Assembly.Load("Catalog.Service.EventHandlers"));
 
@@ -83,7 +83,7 @@ namespace Catalog.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory , IServiceProvider provider)
         {
             if (env.IsDevelopment())
             {
@@ -93,6 +93,7 @@ namespace Catalog.Api
             }
             else
             {
+                provider.GetService<ApplicationDbContext>().Database.Migrate();
                 loggerFactory.AddSyslog(
                     Configuration.GetValue<string>("Papertrail:host"),
                     Configuration.GetValue<int>("Papertrail:port")
@@ -112,7 +113,7 @@ namespace Catalog.Api
                     Predicate = _ => true,
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
-                endpoints.MapHealthChecksUI();
+                //endpoints.MapHealthChecksUI();
                 endpoints.MapControllers();
             });
         }

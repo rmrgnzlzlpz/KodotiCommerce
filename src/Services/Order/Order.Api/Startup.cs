@@ -62,9 +62,9 @@ namespace Order.Api
                 opts => Configuration.GetSection("AzureServiceBus").Bind(opts)
             );
 
-            services
-                .AddHealthChecksUI()
-                .AddInMemoryStorage();
+            //services
+                //.AddHealthChecksUI()
+                //.AddInMemoryStorage();
 
             services.AddMediatR(Assembly.Load("Order.Service.EventHandlers"));
 
@@ -101,7 +101,7 @@ namespace Order.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory, IServiceProvider provider)
         {
             if (env.IsDevelopment())
             {
@@ -111,6 +111,7 @@ namespace Order.Api
             }
             else
             {
+                provider.GetService<ApplicationDbContext>().Database.Migrate();
                 loggerFactory.AddSyslog(
                     Configuration.GetValue<string>("Papertrail:host"),
                     Configuration.GetValue<int>("Papertrail:port")
@@ -130,7 +131,7 @@ namespace Order.Api
                     Predicate = _ => true,
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
-                endpoints.MapHealthChecksUI();
+                //endpoints.MapHealthChecksUI();
                 endpoints.MapControllers();
             });
         }
