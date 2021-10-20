@@ -13,18 +13,16 @@ namespace Catalog.Persistence.Database
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductInStock> Stocks { get; set; }
-        private string SchemaName { get; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            SchemaName = "Catalog";
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            builder.HasDefaultSchema(SchemaName);
+            builder.HasDefaultSchema("Catalog");
 
             ModelConfig(builder);
         }

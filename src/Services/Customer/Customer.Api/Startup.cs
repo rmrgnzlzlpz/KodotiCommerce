@@ -36,7 +36,7 @@ namespace Customer.Api
             services.AddDbContext<ApplicationDbContext>(opts =>
                 opts.UseSqlServer(
                     Configuration.GetConnectionString("database"),
-                    x => x.MigrationsHistoryTable("__EFMigrationHistory", Configuration.GetValue<string>("SchemaName"))
+                    x => x.MigrationsHistoryTable("__EFMigrationHistory", "Customer")
             ));
 
             services.AddHealthChecks()
